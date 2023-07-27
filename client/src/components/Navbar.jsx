@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useUserAuth } from "../context/Userauth";
 import { useStateContext } from "../context";
-import logo from "/Users/ridhhiaggarwal/Desktop/electonic/client/public/logo.png";
+import { logo } from "../assets";
 
 const Navbar = () => {
   const [showDrawer, setShowDrawer] = useState(false);
